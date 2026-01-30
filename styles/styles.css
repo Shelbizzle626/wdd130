@@ -43,9 +43,9 @@ nav a {
 }
 
 h1 {
-    border-bottom: #000;
+    border-bottom: 1px solid #000;
     color: darkblue;
-    padding: .5rem;
+    padding: 0.5rem;
 }
 
 img {
