@@ -2,8 +2,6 @@
     --primary-color: #A7B0Ca;
     /* Powder Blue */
     /* --secondary-color: #D65108; */
-    --secondary-color: #D65108;
-    /* Spicy Orange*/
     --accent1-color: #001D4A;
     /* Prussian Blue*/
     --accent2-color: #5DB5D5;
@@ -141,5 +139,5 @@ footer img {
 }
 
 footer p {
-    color: var(--secondary-color);
+    color: var(--accent1-color);
 }
