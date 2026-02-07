@@ -40,6 +40,8 @@ nav {
     list-style: none;
     flex: 1 1 auto;
     justify-content: flex-end;
+    margin: 16px 0px;
+    padding: 8px;
 }
 
 nav a {
@@ -69,6 +71,17 @@ header img {
     height: 150px;
 }
 
+.contact-hero h1 {
+    position: static;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    background-color: transparent;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    text-align: center;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -90,13 +103,15 @@ h1 {
 fieldset {
     border: none;
     padding: 0;
-    maring: 0;
+    margin: 0;
 }
 
 .contact-container {
     display: flex;
     gap: 10px;
     width: 840px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .map {
@@ -173,16 +188,11 @@ button {
     width: 260px;
     margin: 20px auto 0 auto;
     padding: 10px 20px;
-    background-color: var(--accent2-color);
+    background-color: var(--accent1-color);
     color: white;
     border-radius: 3px;
     cursor: pointer;
     font-size: 16px;
-}
-
-nav {
-    margin: 16px 0px;
-    padding: 8px;
 }
 
 .contact-hero {
