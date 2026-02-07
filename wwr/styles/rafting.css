@@ -34,12 +34,14 @@ header {
     background-color: var(--accent2-color);
     margin-bottom: 10px;
 }
+
 nav {
     display: flex;
     list-style: none;
     flex: 1 1 auto;
     justify-content: flex-end;
 }
+
 nav a {
     border: 1px solid black;
     padding: 10px;
@@ -56,13 +58,15 @@ header img {
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
-    width: 100%;
+    width: 840px;
+    height: 150px;
+
 }
 
 .hero img {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 840px;
+    height: 150px;
 }
 
 h1,
@@ -74,24 +78,123 @@ h2 {
 h1 {
     position: absolute;
     top: 20px;
-    width: 100%;
-    padding: 16px;
+    width: 840px;
+    margin-top: -15px;
+    padding: 8px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--primary-color);
     color: var(--accent1-color);
 }
 
-nav,
-p,
-section,
-article {
+fieldset {
+    border: none;
+    padding: 0;
+    maring: 0;
+}
+
+.contact-container {
+    display: flex;
+    gap: 10px;
+    width: 840px;
+}
+
+.map {
+    flex: 0 0 400px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+}
+
+.form-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-item label {
+    min-width: 100px;
+    font-weight: bold;
+}
+
+.form-item input[type="text"],
+.form-item input[type="email"],
+.form-item textarea {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.radio-group > label {
+    font-weight: bold;
+    min-width: 150px;
+    flex-shrink: 0;
+}
+
+.radio-options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.radio-options label {
+    display: inline;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+.textarea label {
+    font-weight: bold;
+}
+
+textarea {
+    width: 400px;
+}
+
+.checkbox {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    width: 260px;
+    margin: 20px auto 0 auto;
+    padding: 10px 20px;
+    background-color: var(--accent2-color);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav {
     margin: 16px 0px;
     padding: 8px;
 }
 
+.contact-hero {
+    display: flex;
+    background-color: var(--accent2-color);
+    text-align: center;
+}
+
 .hero article {
     position: absolute;
+    padding: 8px;
+    height: 75px;
     background-color: var(--primary-color);
     left: 0;
     right: 0;
@@ -104,7 +207,11 @@ article {
 .hero article img {
     float: right;
     width: 125px;
+    height: 125px;
+    margin-top: -40px;
+    padding-bottom: 30px;
 }
+
 .history {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -119,17 +226,60 @@ section {
 
 h2 {
     grid-column: 1/6;
+    width: 840px;
     background-color: var(--accent2-color);
-    right: 0;
-    left: 0;
     text-align: center;
 }
-p {
+
+.pictures {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.contact-pictures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.contact-pictures figure {
+    margin-left: 40px;
+}
+
+.contact-pictures img {
+    width: 100%;
+    height: 240px;
+}
+
+/*p {
     grid-column: 1/6;
+}*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
 }
 
 .socialmedia a {
     text-decoration: none;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+.socialmedia img {
+    width: 50px;
+    height: 50px;
 }
 
 footer img {
@@ -139,4 +289,5 @@ footer img {
 
 footer p {
     color: var(--accent1-color);
+    margin-bottom: 10px;
 }

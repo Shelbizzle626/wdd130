@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | River Rush</title>
+    <meta name="description"
+      content="This page allows customer to contact us about excursions and pricing.">
+    <meta name="author" content="Shelby Baird">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/wwr-logo2.jpg" alt="River Rush Adventures">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html" target="_blank" rel="noopener">About Us</a>
+            <a href="trips.html" target="_blank" rel="noopener">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-hero">
+            <article>
+                <h2>River Rush Adventures</h2>
+                <p>435 Water Street</p>
+                <p>Rogue River, Oregon</p>
+                <p>+1 543 678 2345</p>
+                <p>info@whitewater.com</p>
+            </article>
+        </div>
+        <form>
+            <div class="contact-container">
+                <div class="map">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10256.626154185102!2d-123.21718274163192!3d42.418325654436984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c584e9d36e8ab5%3A0x2a0ba4dc53615704!2sRogue%20River%2C%20OR!5e0!3m2!1sen!2sus!4v1770441770512!5m2!1sen!2sus"
+                      width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                      referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <fieldset>
+                    <div class="form-item column2">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="useremail" name="useremail" required>
+                    </div>
+                    <div class="radio-group form-item">
+                        <label>Message Purpose</label>
+
+                        <div class="radio-options">
+                            <div>
+                                <input type="radio" id="general" name="purpose" value="general">
+                                <label for="general">General Inquiry</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="reservation" name="purpose"
+                                  value="reservation">
+                                <label for="reservation">Reservation Question</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="website" name="purpose" value="website">
+                                <label for="website">Website Suggestions</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="textarea column2">
+                        <label for="message">Message:</label>
+                        <br>
+                        <textarea id="message" name="message" rows="4"
+                          placeholder="Type here..."></textarea>
+                    </div>
+                    <div class="checkbox column1">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please subscribe me to the monthly
+                            newsletter</label>
+                    </div>
+                    <button type="submit">Get in Touch!</button>
+                </fieldset>
+            </div>
+        </form>
+        <section class="contact-pictures">
+            <h2>We Are Here to Serve You!</h2>
+            <figure>
+                <img src="images/employee1.jpg" alt="Jared Summers" />
+                <figcaption>River Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="Shirley Goodtimes" />
+                <figcaption>Guide Trainee</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg" alt="Sam Safety" />
+                <figcaption>Safety Ranger</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <nav class="socialmedia">
+            <p>©2026 | Contact Us | River Rush Adventures | Shelby Baird</p>
+            <a href="https://facebook.com">
+                <img src="images/fb-logo.jpg" alt="Facebook Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/insta-logo.jpg" alt="Instagram Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin-logo.jpg" alt="LinkedIn Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
