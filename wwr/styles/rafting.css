@@ -56,6 +56,12 @@ header img {
     padding: 5px;
 }
 
+.index-hero img {
+    display: block;
+    width: 840px;
+    background-color: none;
+}
+
 .hero {
     display: grid;
     grid-template-columns: 1fr;
