@@ -76,7 +76,12 @@ header img {
     height: 150px;
 }
 
-.hero h1 {
+.index-hero {
+    position: relative;
+}
+
+.hero h1,
+.index-hero h1 {
     position: absolute;
     top: 20px;
     width: 840px;
@@ -86,6 +91,31 @@ header img {
     opacity: 0.7;
     background-color: transparent;
     color: white;
+}
+
+.index-hero p {
+    position: absolute;
+    top: 80px;
+    width: 840px;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.cta-button {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
 }
 
 main > h1 {
@@ -233,6 +263,66 @@ button {
     height: 125px;
     margin-top: -40px;
     padding-bottom: 30px;
+}
+
+.newsletter {
+    display: grid;
+    grid-template-columns: 400px 1ft;
+    align-items: start;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.newsletter img {
+    grid-row: 1 / 4;
+    grid-column: 1;
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.newsletter form {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.newsletter .name,
+.newsletter .email {
+    margin-bottom: 15px;
+}
+
+.newsletter label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.newsletter button {
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.newsletter a {
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: 40px;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 .history {
