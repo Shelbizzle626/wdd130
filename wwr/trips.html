@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trips | River Rush</title>
-    <meta name="description"
-      content="This page shows where we go rafting and they type of excursions we have.">
+    <meta name="description" content="Here we are highlighting the type of excursions we offer.">
     <meta name="author" content="Shelby Baird">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -16,93 +15,96 @@
         <img src="images/wwr-logo2.jpg" alt="River Rush Adventures">
         <nav>
             <a href="index.html">Home</a>
-            <a href="about.html" target="_blank" rel="noopener">About Us</a>
-            <a href="trips.html" target="_blank" rel="noopener">Trips</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
     <main>
-        <h1>River Rush Adventures</h1>
-        <div class="contact-hero">
-            <article>
-                <p>435 Water Street</p>
-                <p>Rogue River, Oregon</p>
-                <p>+1 543 678 2345</p>
-                <p>info@whitewater.com</p>
-            </article>
-        </div>
-        <div class="contact-container">
-            <div class="map">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23557.393951645827!2d-123.19102842591722!3d42.43466832203572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c584e9d36e8ab5%3A0x2a0ba4dc53615704!2sRogue%20River%2C%20OR!5e0!3m2!1sen!2sus!4v1770505793663!5m2!1sen!2sus"
-                  width="400" height="400" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h1>Adventure Around Every Corner</h1>
+        <section class="trips-hero">
+            <div class="hero-trips">
+                <figure>
+                    <img src="images/hood_river(1).jpg" alt="Hood River" />
+                    <figcaption>Hood River Oregon</figcaption>
+                    <p>Offers challenging, intense, and scenic Class IV-V rapids on the West Fork.
+                    </p>
+                </figure>
+                <figure>
+                    <img src="images/white_salmon.jpg" alt="White Salmon River" />
+                    <figcaption>White Salmon River Oregon</figcaption>
+                    <p>Known for its intense, 7-mile, action-packed Class III-IV rapids, including
+                        an optional Class V
+                        waterfall drop (Husum Falls).</p>
+                </figure>
+                <figure>
+                    <img src="images/deschutes_river.jpg" alt="Deschutes River" />
+                    <figcaption>Deschutes River Oregon</figcaption>
+                    <p>Located near Bend/Maupin, this is a top choice for consistent, exciting Class
+                        III-IV rapids with
+                        options for half-day, full-day, and multi-day trips.</p>
+                </figure>
             </div>
-            <div class="contact-form">
-                <form>
-                    <fieldset>
-                        <div class="form-item column2">
-                            <label for="fullname">Full Name:</label>
-                            <input type="text" id="fullname" name="fullname" required>
-                        </div>
-                        <div class="form-item column2">
-                            <label for="useremail">Email:</label>
-                            <input type="email" id="useremail" name="useremail" required>
-                        </div>
-                        <div class="radio-group form-item">
-                            <label>Message Purpose</label>
-
-                            <div class="radio-options">
-                                <div>
-                                    <input type="radio" id="general" name="purpose" value="general">
-                                    <label for="general">General Inquiry</label>
-                                </div>
-                                <div>
-                                    <input type="radio" id="reservation" name="purpose"
-                                      value="reservation">
-                                    <label for="reservation">Reservation Question</label>
-                                </div>
-                                <div>
-                                    <input type="radio" id="website" name="purpose" value="website">
-                                    <label for="website">Website Suggestions</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="textarea column2">
-                            <label for="message">Message:</label>
-                            <br>
-                            <textarea id="message" name="message" rows="4"
-                              placeholder="Type here..."></textarea>
-                        </div>
-                        <div class="checkbox column1">
-                            <input type="checkbox" id="newsletter" name="newsletter">
-                            <label for="newsletter">Please subscribe me to the monthly
-                                newsletter</label>
-                        </div>
-                        <button type="submit">Get in Touch!</button>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
-        <section class="contact-pictures">
-            <h2>We Are Here to Serve You!</h2>
-            <figure>
-                <img src="images/employee1.jpg" alt="Jared Summers">
-                <figcaption>River Guide</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee2.jpg" alt="Shirley Goodtimes">
-                <figcaption>Guide Trainee</figcaption>
-            </figure>
-            <figure>
-                <img src="images/employee3.jpg" alt="Sam Safety">
-                <figcaption>Safety Ranger</figcaption>
-            </figure>
         </section>
+        <div class="table-container">
+            <table>
+                <caption>Available Excursions</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Location</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rogue River</td>
+                        <td>Rogue Valley, Josephine County</td>
+                        <td>World-renowned for its scenic beauty, the Rogue offers 3-5 day,
+                            lodge-to-lodge, or camping trips
+                            featuring Class II-IV rapids, ideal for both adventure and wildlife
+                            spotting.</td>
+                    </tr>
+                    <tr>
+                        <td>Clackamas River</td>
+                        <td>Clackamette Park</td>
+                        <td>An accessible option close to Portland (45 min) offering Class III-IV
+                            rapids through stunning forest
+                            scenery.</td>
+                    </tr>
+                    <tr>
+                        <td>McKenzie River</td>
+                        <td>Cascade Range, Linn County</td>
+                        <td>Known for its clear water and scenic, often technical, Class II-III
+                            rapids.</td>
+                    </tr>
+                    <tr>
+                        <td>Owyhee River</td>
+                        <td>Rome Oregon</td>
+                        <td>Known as the "Grand Canyon of Oregon" for multi-day, remote, and scenic,
+                            high-volume rafting
+                            adventures.</td>
+                    </tr>
+                    <tr>
+                        <td>North Umpqua River</td>
+                        <td>Cascade Mtns, Maidu Lake</td>
+                        <td>Features exciting, fast-paced, and scenic rapids in southwest Oregon.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>John Day River</td>
+                        <td>Malheur National Forest, Grant County</td>
+                        <td>Known for long, multi-day, scenic trips with smaller, fun rapids, often
+                            done in early spring.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
     <footer>
+        <p>©2026 | Contact Us | River Rush Adventures | Shelby Baird</p>
         <nav class="socialmedia">
-            <p>©2026 | Contact Us | River Rush Adventures | Shelby Baird</p>
             <a href="https://facebook.com">
                 <img src="images/fb-logo.jpg" alt="Facebook Icon">
             </a>
